@@ -5,4 +5,4 @@
   ```yaml
   test: val
   ```
-:warning:Test text:warning:
+    :warning:Test text:warning:
