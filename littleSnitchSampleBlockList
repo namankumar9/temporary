@@ -1,0 +1,23 @@
+{
+  "name": "My Custom Rules",
+  "description": "Block unwanted domains",
+  "rules": [
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-hosts": "ads.example.com",
+      "ports": "443",
+      "protocol": "tcp",
+      "direction": "outgoing",
+      "notes": "Block ads domain"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-hosts": "leetcode.com",
+      "ports": "80,443",
+      "protocol": "tcp",
+      "direction": "outgoing"
+    }
+  ]
+}
