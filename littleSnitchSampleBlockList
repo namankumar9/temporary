@@ -14,7 +14,15 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-hosts": "leetcode.com",
+      "remote-hosts": "dzone.com",
+      "ports": "80,443",
+      "protocol": "tcp",
+      "direction": "outgoing"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-hosts": "baeldung.com",
       "ports": "80,443",
       "protocol": "tcp",
       "direction": "outgoing"
