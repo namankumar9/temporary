@@ -1,47 +1,5 @@
 {
   "name": "My Custom Rules",
   "description": "Block unwanted domains",
-  "rules": [
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-hosts": "ads.example.com",
-      "ports": "443",
-      "protocol": "tcp",
-      "direction": "outgoing",
-      "notes": "Block ads domain"
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-hosts": "dzone.com",
-      "ports": "80,443",
-      "protocol": "tcp",
-      "direction": "outgoing"
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-hosts": "baeldung.com",
-      "ports": "80,443",
-      "protocol": "tcp",
-      "direction": "outgoing"
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-hosts": "www.oracle.com",
-      "ports": "80,443",
-      "protocol": "tcp",
-      "direction": "outgoing"
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-hosts": "leetcode.com",
-      "ports": "80,443",
-      "protocol": "tcp",
-      "direction": "outgoing"
-    }
-  ]
+  "denied-remote-domains": ["dzone.com", "oracle.com", "baeldung.com", "apache.org"]
 }
