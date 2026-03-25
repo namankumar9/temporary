@@ -1,5 +1,5 @@
 {
   "name": "My Custom Rules",
   "description": "Block unwanted domains",
-  "denied-remote-domains": ["dzone.com", "oracle.com", "baeldung.com", "apache.org"]
+  "denied-remote-domains": ["youtube.com", "instagram.com"]
 }
